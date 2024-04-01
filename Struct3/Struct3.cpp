@@ -14,8 +14,11 @@ struct Mahasiswa {
     string umur;
 };
 
-int main()
-{
-    std::cout << "Hello World!\n";
+int main() {
+    Mahasiswa mhs;
+    cout << "Nomor Mahasiswa : ";
+    getline(cin, mhs.nim);
+    cout << "Nama Mahasiswa: ";
+    getline(cin, mhs.nama);
 }
 
